@@ -1,0 +1,22 @@
+{
+  "document_id": "doc-003",
+  "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+  "pages_processed": 1,
+  "classification": "TEXT_PDF",
+  "ocr_used": false,
+  "average_ocr_confidence": 1.0,
+  "min_ocr_confidence": 1.0,
+  "pages": [
+    {
+      "document_id": "doc-003",
+      "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+      "page_number": 1,
+      "text": "GREEN VALLEY DIAGNOSTIC CENTRE\nCLINICAL LABORATORY INVESTIGATION REPORT\nPatient ID:\nSYN-CANCER-001 (Synthetic)\nDocument ID:\ndoc-003\nDocument Date:\n2026-01-10\nDocument Type:\nLaboratory Report\nFacility:\nGreen Valley Diagnostic Centre\nDepartment:\nClinical Chemistry & Hematology\nSPECIMEN & COLLECTION INFORMATION\nCollection Date/Time: 2026-01-10 08:30 EST | Specimen Type: Venous Blood (EDTA / Serum)\nOrdering Clinician: Surgical Oncology Service, Sunrise Oncology Centre\nLABORATORY RESULTS SUMMARY\nAnalyte / Test Name\nResult Value\nUnit\nDocumented Reference Interval\nStatus\nCA 15-3\n22.4\nU/mL\n0.0 - 30.0 U/mL\nCompleted\nHemoglobin\n13.4\ng/dL\n12.0 - 15.5 g/dL\nCompleted\nWhite Blood Cells (WBC)\n6.8\nx10^3/uL\n4.5 - 11.0 x10^3/uL\nCompleted\nPlatelet Count\n240\nx10^3/uL\n150 - 450 x10^3/uL\nCompleted\nSerum Creatinine\n0.85\nmg/dL\n0.60 - 1.10 mg/dL\nCompleted\nAlanine Aminotransferase (ALT)\n22\nU/L\n7 - 35 U/L\nCompleted\nDOCUMENTED EXTRACT ANCHORS\nLaboratory report records: CA 15-3 value 22.4 U/mL\nLaboratory report records: Hemoglobin value 13.4 g/dL\nLABORATORY DIRECTOR VERIFICATION\nCertified by: Clinical Chemistry Section Head, Green Valley Diagnostic Centre\nReport Released: 2026-01-10 14:15 EST\nGREEN VALLEY DIAGNOSTIC CENTRE | Doc: doc-003 | Date: 2026-01-10\nSYNTHETIC RECORD: SYN-CANCER-001\nFOR RESEARCH & ALGORITHM EVALUATION ONLY \u2014 100% SYNTHETIC DATA \u2014 NOT A REAL PATIENT RECORD\nPage 1 of 1",
+      "ocr_confidence": 1.0,
+      "ocr_confidence_min": 1.0,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

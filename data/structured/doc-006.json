@@ -1,0 +1,102 @@
+{
+  "document_id": "doc-006",
+  "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+  "pages_processed": 2,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 1,
+          "text_anchor": "SUNRISE ONCOLOGY CENTRE OPERATIVE & PROCEDURE REPORT Document Date: 2026-01-20 Facility: Sunrise Oncology Centre Department: Operating Room / Surgical Oncology",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "doc-006-visit",
+        "date": "2026-01-20",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Operating Room / Surgical Oncology",
+        "visit_type": "Procedure Note"
+      },
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Operative Record Completed: 2026-01-20 15:00 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-01-20",
+        "facility": "Sunrise Oncology Centre",
+        "department": null,
+        "visit_type": "surgery"
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [],
+    "medications": [],
+    "procedures": [
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 1,
+          "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "documented_status": "completed"
+      },
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "Right breast partial mastectomy",
+        "date": "2026-01-20",
+        "documented_status": "completed"
+      },
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "Sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "documented_status": "completed"
+      }
+    ],
+    "referrals": [],
+    "investigations": [],
+    "timeline_events": [
+      {
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Operative Record Completed: 2026-01-20 15:00 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "event_id": "e1",
+        "date": "2026-01-20",
+        "event_type": "surgery",
+        "description": "Right breast partial mastectomy and sentinel lymph node biopsy completed."
+      }
+    ]
+  }
+}

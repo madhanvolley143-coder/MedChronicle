@@ -1,0 +1,61 @@
+{
+  "document_id": "doc-004",
+  "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+  "pages_processed": 2,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-004",
+          "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+          "page_number": 1,
+          "text_anchor": "DIAGNOSTIC RADIOLOGY REPORT \u2014 COMPUTED TOMOGRAPHY",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "doc-004",
+        "date": "2026-01-14",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Diagnostic Imaging",
+        "visit_type": "Imaging Report"
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [
+      {
+        "source": {
+          "document_id": "doc-004",
+          "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+          "page_number": 1,
+          "text_anchor": "Procedure: Contrast-Enhanced CT Chest, Abdomen, and Pelvis (IV contrast administered).",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "modality": "CT",
+        "body_site": "Chest, Abdomen, and Pelvis",
+        "report_text": "Lower Neck / Thyroid: Visualized thyroid gland is unremarkable without nodules. Mediastinum & Hila: No pathological lymphadenopathy detected in mediastinum or hilar stations. Pleural Spaces: No pleural effusions or pleural thickening identified bilaterally.",
+        "date": "2026-01-14"
+      },
+      {
+        "source": {
+          "document_id": "doc-004",
+          "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+          "page_number": 2,
+          "text_anchor": "DETAILED ANATOMICAL FINDINGS",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "modality": "Imaging",
+        "body_site": "Breast & Chest Wall, Lungs, Abdomen, Pelvis, Bones",
+        "report_text": "2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. Underlying pectoralis major muscle plane is preserved without direct invasion. Left breast unremarkable. Lungs: No focal lesions in lung parenchyma. Tracheobronchial tree is clear. Abdomen: Liver is normal in size and attenuation; no focal lesions. Spleen, pancreas, adrenal glands, and kidneys unremarkable. Pelvis: Bladder and pelvic organs unremarkable. No pelvic free fluid. No pathological lymphadenopathy detected in retroperitoneum. Bones: No focal destructive or blastic lesions in osseous structures.",
+        "date": "2026-01-14"
+      }
+    ],
+    "medications": [],
+    "procedures": [],
+    "referrals": [],
+    "investigations": [],
+    "timeline_events": []
+  }
+}

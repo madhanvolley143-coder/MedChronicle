@@ -1,0 +1,22 @@
+{
+  "document_id": "e2e",
+  "file_name": "e2e_lab.pdf",
+  "pages_processed": 1,
+  "classification": "TEXT_PDF",
+  "ocr_used": false,
+  "average_ocr_confidence": 1.0,
+  "min_ocr_confidence": 1.0,
+  "pages": [
+    {
+      "document_id": "e2e",
+      "file_name": "e2e_lab.pdf",
+      "page_number": 1,
+      "text": "Patient ID: SYN-CANCER-001 Hemoglobin: 13.4 g/dL",
+      "ocr_confidence": 1.0,
+      "ocr_confidence_min": 1.0,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

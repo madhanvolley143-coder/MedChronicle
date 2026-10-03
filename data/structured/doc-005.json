@@ -1,0 +1,50 @@
+{
+  "document_id": "doc-005",
+  "file_name": "doc-005_prescription_2026-01-15.pdf",
+  "pages_processed": 1,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-005",
+          "file_name": "doc-005_prescription_2026-01-15.pdf",
+          "page_number": 1,
+          "text_anchor": "SUNRISE ONCOLOGY CENTRE OUTPATIENT PHARMACY PRESCRIPTION ORDER",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-01-15",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Medical Oncology",
+        "visit_type": "Prescription"
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [],
+    "medications": [
+      {
+        "source": {
+          "document_id": "doc-005",
+          "file_name": "doc-005_prescription_2026-01-15.pdf",
+          "page_number": 1,
+          "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "medicine_name": "Tamoxifen",
+        "strength": "20 mg",
+        "dose": "1 tablet (20 mg)",
+        "frequency": "once daily",
+        "route": "Oral",
+        "status": "started",
+        "date": "2026-01-15"
+      }
+    ],
+    "procedures": [],
+    "referrals": [],
+    "investigations": [],
+    "timeline_events": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "doc-med",
+  "file_name": "eng_test.png",
+  "pages_processed": 1,
+  "classification": "IMAGE",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.684,
+  "min_ocr_confidence": 0.52,
+  "pages": [
+    {
+      "document_id": "doc-med",
+      "file_name": "eng_test.png",
+      "page_number": 1,
+      "text": "TAMOXIFEN 20 MG ORAL TABLETDAILY",
+      "ocr_confidence": 0.684,
+      "ocr_confidence_min": 0.52,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

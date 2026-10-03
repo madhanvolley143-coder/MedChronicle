@@ -1,0 +1,22 @@
+{
+  "document_id": "doc-meta",
+  "file_name": "meta_test.png",
+  "pages_processed": 1,
+  "classification": "IMAGE",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.74,
+  "min_ocr_confidence": 0.57,
+  "pages": [
+    {
+      "document_id": "doc-meta",
+      "file_name": "meta_test.png",
+      "page_number": 1,
+      "text": "Clinical Note dac meta",
+      "ocr_confidence": 0.74,
+      "ocr_confidence_min": 0.57,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

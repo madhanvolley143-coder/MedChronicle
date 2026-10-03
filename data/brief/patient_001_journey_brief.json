@@ -1,0 +1,1405 @@
+{
+  "header": {
+    "title": "JourneyBrief",
+    "patient_id": "SYN-CANCER-001",
+    "synthetic_notice": "SYNTHETIC DATA \u2014 DEMONSTRATION ONLY",
+    "disclaimer": "AI-generated document summary \u2014 clinician review required. The clinician is the final decision-maker.",
+    "source_documents_count": 10,
+    "total_timeline_events": 65,
+    "generated_at": "2026-10-03T16:12:16.579337+00:00"
+  },
+  "consultation_context": {
+    "reason_for_visit": "Initial oncology consultation for palpable right breast mass",
+    "latest_encounter": "2026-05-12 \u2014 Surgical Oncology (Sunrise Oncology Centre)",
+    "relevant_history": "Right breast: Carcinoma documented on 2026-01-08.",
+    "latest_record": "doc-010_discharge_summary_2026-02-10.pdf (Discharge Summary 2026-02-10)"
+  },
+  "overview": [
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: Core Needle Biopsy, Right Breast: Specimen: Core Needle Biopsy, Right Breast....",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Procedure: Core Needle Biopsy, Right Breast: Documented procedure status: performed....",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.\nProcedure Date: 2026-01-08",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: Invasive ductal carcinoma: Invasive ductal carcinoma, histological Nottingham grade 2...",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Invasive ductal carcinoma, histological Nottingham grade 2.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: Estrogen receptor: Estrogen receptor (ER) positive (85%)...",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Estrogen receptor (ER) positive (85%)",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: Progesterone receptor: Progesterone receptor (PR) positive (70%)...",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Progesterone receptor (PR) positive (70%)",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: HER2: HER2 negative (score 1+ by IHC)...",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "HER2 negative (score 1+ by IHC).",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "milestone": "Pathology: Ki-67 index: Ki-67 index: 15%...",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Ki-67 index: 15%.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "milestone": "Imaging: CT - Chest, Abdomen, and Pelvis: Lower Neck / Thyroid: Visualized thyroid gland is unremarkable without nodules. Mediastinum & Hila: No pathological lymp...",
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure: Contrast-Enhanced CT Chest, Abdomen, and Pelvis (IV contrast administered).",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "milestone": "Imaging: Imaging - Breast & Chest Wall, Lungs, Abdomen, Pelvis, Bones: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. Underlying pectoralis major muscle plane is ...",
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+        "page_number": 2,
+        "text_anchor": "DETAILED ANATOMICAL FINDINGS",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "milestone": "Procedure: Right partial mastectomy with sentinel lymph node biopsy: Documented procedure status: completed....",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "milestone": "Procedure: Right breast partial mastectomy: Documented procedure status: completed....",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "milestone": "Procedure: Sentinel lymph node biopsy: Documented procedure status: completed....",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "milestone": "Procedure: right partial mastectomy: Documented procedure status: status-post....",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy on 2026-01-20",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "milestone": "Procedure: Right partial mastectomy with sentinel lymph node biopsy: Documented procedure status: performed....",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "milestone": "Referral: Department of Radiation Oncology, Sunrise Oncology Centre: Clinical referral request status: scheduled....",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Referred To: Department of Radiation Oncology, Sunrise Oncology Centre",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "milestone": "Discharge Summary: Sunrise Oncology Centre: Documented encounter in Inpatient Surgical Oncology Service....",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "SUNRISE ONCOLOGY CENTRE\nINPATIENT SURGICAL ONCOLOGY DISCHARGE SUMMARY",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "milestone": "discharge summary: SUNRISE ONCOLOGY CENTRE: Documented encounter in Department....",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "DISCHARGE STATUS & SUMMARY RECORD",
+        "bounding_box": null
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "milestone": "Discharge: doc-010: The patient was discharged in stable clinical condition....",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "The patient was discharged in stable clinical condition.",
+        "bounding_box": null
+      }
+    }
+  ],
+  "recent_timeline": [
+    {
+      "event_id": "doc-010-visit-5",
+      "date": "2026-05-12",
+      "event_type": "visit",
+      "description": "Clinical Visit: Sunrise Oncology Centre \u2014 Documented encounter in Surgical Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Surgical Oncology Sunrise Oncology Centre 2026-05-12 11:30 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-visit-4",
+      "date": "2026-03-05",
+      "event_type": "visit",
+      "description": "Clinical Visit: Sunrise Oncology Centre \u2014 Documented encounter in Medical Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Medical Oncology Sunrise Oncology Centre 2026-03-05 14:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-visit-3",
+      "date": "2026-02-18",
+      "event_type": "visit",
+      "description": "Clinical Visit: Sunrise Oncology Centre \u2014 Documented encounter in Radiation Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Radiation Oncology Sunrise Oncology Centre 2026-02-18 10:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-ev-14",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "description": "Discharge: doc-010 \u2014 The patient was discharged in stable clinical condition.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "The patient was discharged in stable clinical condition.",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-visit-2",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "description": "discharge summary: SUNRISE ONCOLOGY CENTRE \u2014 Documented encounter in Department.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "DISCHARGE STATUS & SUMMARY RECORD",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-visit-1",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "description": "Discharge Summary: Sunrise Oncology Centre \u2014 Documented encounter in Inpatient Surgical Oncology Service.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "SUNRISE ONCOLOGY CENTRE\nINPATIENT SURGICAL ONCOLOGY DISCHARGE SUMMARY",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-ev-13",
+      "date": "2026-02-10",
+      "event_type": "Discharge Finalized",
+      "description": "Discharge Finalized: doc-010 \u2014 Discharge Finalized",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Discharge Finalized: 2026-02-10",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-inv-10",
+      "date": "2026-02-07",
+      "event_type": "investigation",
+      "description": "Investigation: CT Simulation Planning Scan \u2014 Status: Ordered. Ordered: 2026-02-07, Result: N/A",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "1. CT Simulation Planning Scan: Ordered on 2026-02-07 for radiation therapy localization.",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-009-visit-2",
+      "date": "2026-02-07",
+      "event_type": "visit",
+      "description": "Clinical Visit: Sunrise Oncology Centre \u2014 Documented encounter in Department.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 2,
+        "text_anchor": "Encounter Finalized: 2026-02-07 14:30 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-009-inv-6",
+      "date": "2026-02-07",
+      "event_type": "investigation",
+      "description": "Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy \u2014 Status: ordered. Ordered: 2026-02-07, Result: N/A",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 2,
+        "text_anchor": "Ordered Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-009-visit-1",
+      "date": "2026-02-07",
+      "event_type": "visit",
+      "description": "Post-Operative Follow-Up: Sunrise Oncology Centre \u2014 Documented encounter in Department of Surgical Oncology.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Visit ID: VIS-002 | Visit Type: Post-Operative Follow-Up",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-010-lab-6",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "description": "Laboratory Test: Hemoglobin \u2014 Hemoglobin documented value: 12.8 g/dL",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Hemoglobin at 12.8 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-008-visit-1",
+      "date": "2026-02-05",
+      "event_type": "visit",
+      "description": "Post-operative follow-up laboratory report: Green Valley Diagnostic Centre \u2014 Documented encounter in Department of Clinical Hematology.",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-008-lab-6",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "description": "Laboratory Test: Platelet Count \u2014 Platelet Count documented value: 255 x10^3/uL (Reference interval: 150 - 450 x10^3/uL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    },
+    {
+      "event_id": "doc-008-lab-5",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "description": "Laboratory Test: White Blood Cell Count (WBC) \u2014 White Blood Cell Count (WBC) documented value: 6.1 x10^3/uL (Reference interval: 4.5 - 11.0 x10^3/uL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0
+    }
+  ],
+  "key_documented_info": {
+    "pathology": [
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 1,
+          "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.",
+          "bounding_box": null
+        }
+      },
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Invasive ductal carcinoma, histological Nottingham grade 2.",
+          "bounding_box": null
+        }
+      },
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Estrogen receptor (ER) positive (85%)",
+          "bounding_box": null
+        }
+      },
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Progesterone receptor (PR) positive (70%)",
+          "bounding_box": null
+        }
+      },
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "HER2 negative (score 1+ by IHC).",
+          "bounding_box": null
+        }
+      },
+      {
+        "specimen": null,
+        "histology": null,
+        "grade": null,
+        "biomarkers": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Ki-67 index: 15%.",
+          "bounding_box": null
+        }
+      }
+    ],
+    "laboratory": [
+      {
+        "test_name": "Estrogen Receptor (ER)",
+        "value": "Positive (85% strong nuclear staining)",
+        "unit": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Positive (85% strong nuclear staining)",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Progesterone Receptor (PR)",
+        "value": "Positive (70% moderate nuclear staining)",
+        "unit": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Positive (70% moderate nuclear staining)",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "HER2 / neu Protein",
+        "value": "Negative (Score 1+ faint membrane staining)",
+        "unit": null,
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Negative (Score 1+ faint membrane staining)",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Ki-67 Proliferation Index",
+        "value": "15",
+        "unit": "%",
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "15% nuclear labeling index",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "CA 15-3",
+        "value": "22.4",
+        "unit": "U/mL",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Laboratory report records: CA 15-3 value 22.4 U/mL",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Laboratory report records: Hemoglobin value 13.4 g/dL",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "White Blood Cells (WBC)",
+        "value": "6.8",
+        "unit": "x10^3/uL",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "White Blood Cells (WBC) 6.8 x10^3/uL 4.5 - 11.0 x10^3/uL Completed",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "240",
+        "unit": "x10^3/uL",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Platelet Count 240 x10^3/uL 150 - 450 x10^3/uL Completed",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Serum Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Serum Creatinine 0.85 mg/dL 0.60 - 1.10 mg/dL Completed",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Alanine Aminotransferase (ALT)",
+        "value": "22",
+        "unit": "U/L",
+        "date": "2026-01-10",
+        "source": {
+          "document_id": "doc-003",
+          "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Alanine Aminotransferase (ALT) 22 U/L 7 - 35 U/L Completed",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": "Laboratory report records: Hemoglobin value 12.8 g/dL",
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Hematocrit",
+        "value": "38.2",
+        "unit": "%",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Red Blood Cell Count (RBC)",
+        "value": "4.21",
+        "unit": "x10^6/uL",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "White Blood Cell Count (WBC)",
+        "value": "6.1",
+        "unit": "x10^3/uL",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Platelet Count",
+        "value": "255",
+        "unit": "x10^3/uL",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        }
+      },
+      {
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "date": "2026-02-05",
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Hemoglobin at 12.8 g/dL",
+          "bounding_box": null
+        }
+      }
+    ],
+    "imaging": [
+      {
+        "modality": "CT",
+        "body_site": "Chest, Abdomen, and Pelvis",
+        "impression": null,
+        "date": "2026-01-14",
+        "source": {
+          "document_id": "doc-004",
+          "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+          "page_number": 1,
+          "text_anchor": "Procedure: Contrast-Enhanced CT Chest, Abdomen, and Pelvis (IV contrast administered).",
+          "bounding_box": null
+        }
+      },
+      {
+        "modality": "Imaging",
+        "body_site": "Breast & Chest Wall, Lungs, Abdomen, Pelvis, Bones",
+        "impression": null,
+        "date": "2026-01-14",
+        "source": {
+          "document_id": "doc-004",
+          "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+          "page_number": 2,
+          "text_anchor": "DETAILED ANATOMICAL FINDINGS",
+          "bounding_box": null
+        }
+      }
+    ],
+    "procedures": [
+      {
+        "procedure_name": "Core Needle Biopsy, Right Breast",
+        "date": "2026-01-08",
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 1,
+          "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.\nProcedure Date: 2026-01-08",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 1,
+          "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "Right breast partial mastectomy",
+        "date": "2026-01-20",
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "Sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "source": {
+          "document_id": "doc-006",
+          "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+          "page_number": 2,
+          "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "right partial mastectomy",
+        "date": "2026-01-20",
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "right partial mastectomy on 2026-01-20",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "right partial mastectomy",
+        "date": null,
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "right partial mastectomy",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "sentinel lymph node dissection",
+        "date": null,
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "sentinel lymph node dissection",
+          "bounding_box": null
+        }
+      },
+      {
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+          "bounding_box": null
+        }
+      }
+    ],
+    "medications": [
+      {
+        "medicine_name": "Tamoxifen",
+        "status": "started",
+        "dose": "1 tablet (20 mg)",
+        "frequency": "once daily",
+        "route": "Oral",
+        "date": "2026-01-15",
+        "source": {
+          "document_id": "doc-005",
+          "file_name": "doc-005_prescription_2026-01-15.pdf",
+          "page_number": 1,
+          "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+          "bounding_box": null
+        }
+      },
+      {
+        "medicine_name": "Tamoxifen",
+        "status": "continued",
+        "dose": "20 mg",
+        "frequency": "daily",
+        "route": "oral",
+        "date": "2026-01-15",
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+          "bounding_box": null
+        }
+      },
+      {
+        "medicine_name": "Tamoxifen",
+        "status": "continued",
+        "dose": "1 tablet",
+        "frequency": "daily",
+        "route": "orally",
+        "date": null,
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+          "bounding_box": null
+        }
+      },
+      {
+        "medicine_name": "Acetaminophen",
+        "status": "as needed",
+        "dose": "1-2 tablets",
+        "frequency": "every 6 hours PRN mild pain",
+        "route": "orally",
+        "date": null,
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Acetaminophen 500 mg 1-2 tablets orally every 6 hours PRN mild pain as needed",
+          "bounding_box": null
+        }
+      }
+    ],
+    "referrals": [
+      {
+        "specialty": "Specialty",
+        "provider_facility": null,
+        "date": "2026-01-21",
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "Referred To: Department of Radiation Oncology, Sunrise Oncology Centre",
+          "bounding_box": null
+        }
+      }
+    ],
+    "investigations": [
+      {
+        "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+        "status": "ORDERED",
+        "order_date": "2026-01-05",
+        "result_date": null,
+        "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+          "bounding_box": null
+        }
+      },
+      {
+        "investigation_name": "Image-Guided Core Needle Biopsy",
+        "status": "ORDERED",
+        "order_date": null,
+        "result_date": null,
+        "result_status_text": "RESULT AVAILABLE",
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Image-Guided Core Needle Biopsy: Pending diagnostic imaging verification.",
+          "bounding_box": null
+        }
+      },
+      {
+        "investigation_name": "Baseline Laboratory Panel",
+        "status": "ORDERED",
+        "order_date": null,
+        "result_date": null,
+        "result_status_text": "RESULT AVAILABLE",
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Baseline Laboratory Panel: Complete blood count and serum tumor markers.",
+          "bounding_box": null
+        }
+      },
+      {
+        "investigation_name": "CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "status": "ORDERED",
+        "order_date": "2026-02-07",
+        "result_date": null,
+        "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 2,
+          "text_anchor": "Ordered Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+          "bounding_box": null
+        }
+      },
+      {
+        "investigation_name": "CT Simulation Planning Scan",
+        "status": "ORDERED",
+        "order_date": "2026-02-07",
+        "result_date": null,
+        "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "1. CT Simulation Planning Scan: Ordered on 2026-02-07 for radiation therapy localization.",
+          "bounding_box": null
+        }
+      },
+      {
+        "investigation_name": "Mammography Surveillance",
+        "status": "ORDERED",
+        "order_date": null,
+        "result_date": null,
+        "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "2. Mammography Surveillance: Scheduled at 6 months post-operatively.",
+          "bounding_box": null
+        }
+      }
+    ]
+  },
+  "what_changed": [
+    {
+      "entity_name": "Hemoglobin",
+      "category": "laboratory_results",
+      "previous_value": "13.4 g/dL",
+      "latest_value": "12.8 g/dL",
+      "documented_difference": "13.4 g/dL -> 12.8 g/dL",
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 13.4 g/dL",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Hemoglobin at 12.8 g/dL",
+        "bounding_box": null
+      }
+    },
+    {
+      "entity_name": "Platelet Count",
+      "category": "laboratory_results",
+      "previous_value": "240 x10^3/uL",
+      "latest_value": "255 x10^3/uL",
+      "documented_difference": "240 x10^3/uL -> 255 x10^3/uL",
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Platelet Count 240 x10^3/uL 150 - 450 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      }
+    },
+    {
+      "entity_name": "White Blood Cell Count (WBC)",
+      "category": "laboratory_results",
+      "previous_value": "6.8 x10^3/uL",
+      "latest_value": "6.1 x10^3/uL",
+      "documented_difference": "6.8 x10^3/uL -> 6.1 x10^3/uL",
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "White Blood Cells (WBC) 6.8 x10^3/uL 4.5 - 11.0 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      }
+    },
+    {
+      "entity_name": "Tamoxifen",
+      "category": "medications",
+      "previous_value": "Status: continued, Dose: 1 tablet",
+      "latest_value": "Status: continued, Dose: 20 mg",
+      "documented_difference": "continued -> continued (Dose: 1 tablet -> 20 mg)",
+      "previous_date": null,
+      "latest_date": "2026-01-15",
+      "previous_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+        "bounding_box": null
+      }
+    },
+    {
+      "entity_name": "Right partial mastectomy with sentinel lymph node biopsy",
+      "category": "procedures",
+      "previous_value": "Status: completed",
+      "latest_value": "Status: performed",
+      "documented_difference": "completed -> performed",
+      "previous_date": "2026-01-20",
+      "latest_date": "2026-01-20",
+      "previous_source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+        "bounding_box": null
+      }
+    },
+    {
+      "entity_name": "right partial mastectomy",
+      "category": "procedures",
+      "previous_value": "Status: performed",
+      "latest_value": "Status: status-post",
+      "documented_difference": "performed -> status-post",
+      "previous_date": null,
+      "latest_date": "2026-01-20",
+      "previous_source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy on 2026-01-20",
+        "bounding_box": null
+      }
+    }
+  ],
+  "documentation_flags": [
+    {
+      "flag_id": "flag-med-mismatch-2",
+      "flag_type": "medication_documentation_mismatch",
+      "notice": "Documentation / information issue",
+      "title": "Medication Status Transition Documented: Tamoxifen",
+      "description": "Medication 'Tamoxifen' is documented with multiple status entries (continued, started) across different care encounters. No inference is made regarding medication administration.",
+      "sources": [
+        {
+          "document_id": "doc-005",
+          "file_name": "doc-005_prescription_2026-01-15.pdf",
+          "page_number": 1,
+          "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+          "bounding_box": null
+        },
+        {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+          "bounding_box": null
+        },
+        {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+          "bounding_box": null
+        }
+      ]
+    },
+    {
+      "flag_id": "flag-missing-result-1",
+      "flag_type": "missing_result",
+      "notice": "Documentation / information issue",
+      "title": "Documented Order Awaiting Result: Diagnostic Mammogram and Breast Ultrasound",
+      "description": "Investigation 'Diagnostic Mammogram and Breast Ultrasound' is documented as ordered on 2026-01-05. Result not found in currently processed records.",
+      "sources": [
+        {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+          "bounding_box": null
+        }
+      ]
+    }
+  ],
+  "medications": [
+    {
+      "medicine_name": "Tamoxifen",
+      "status": "started",
+      "dose": "1 tablet (20 mg)",
+      "frequency": "once daily",
+      "route": "Oral",
+      "date": "2026-01-15",
+      "source": {
+        "document_id": "doc-005",
+        "file_name": "doc-005_prescription_2026-01-15.pdf",
+        "page_number": 1,
+        "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+        "bounding_box": null
+      }
+    },
+    {
+      "medicine_name": "Tamoxifen",
+      "status": "continued",
+      "dose": "20 mg",
+      "frequency": "daily",
+      "route": "oral",
+      "date": "2026-01-15",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+        "bounding_box": null
+      }
+    },
+    {
+      "medicine_name": "Tamoxifen",
+      "status": "continued",
+      "dose": "1 tablet",
+      "frequency": "daily",
+      "route": "orally",
+      "date": null,
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+        "bounding_box": null
+      }
+    },
+    {
+      "medicine_name": "Acetaminophen",
+      "status": "as needed",
+      "dose": "1-2 tablets",
+      "frequency": "every 6 hours PRN mild pain",
+      "route": "orally",
+      "date": null,
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Acetaminophen 500 mg 1-2 tablets orally every 6 hours PRN mild pain as needed",
+        "bounding_box": null
+      }
+    }
+  ],
+  "investigations": [
+    {
+      "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+      "status": "ORDERED",
+      "order_date": "2026-01-05",
+      "result_date": null,
+      "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+        "bounding_box": null
+      }
+    },
+    {
+      "investigation_name": "Image-Guided Core Needle Biopsy",
+      "status": "ORDERED",
+      "order_date": null,
+      "result_date": null,
+      "result_status_text": "RESULT AVAILABLE",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Image-Guided Core Needle Biopsy: Pending diagnostic imaging verification.",
+        "bounding_box": null
+      }
+    },
+    {
+      "investigation_name": "Baseline Laboratory Panel",
+      "status": "ORDERED",
+      "order_date": null,
+      "result_date": null,
+      "result_status_text": "RESULT AVAILABLE",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Baseline Laboratory Panel: Complete blood count and serum tumor markers.",
+        "bounding_box": null
+      }
+    },
+    {
+      "investigation_name": "CT Simulation Planning Scan for Adjuvant Radiotherapy",
+      "status": "ORDERED",
+      "order_date": "2026-02-07",
+      "result_date": null,
+      "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 2,
+        "text_anchor": "Ordered Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "bounding_box": null
+      }
+    },
+    {
+      "investigation_name": "CT Simulation Planning Scan",
+      "status": "ORDERED",
+      "order_date": "2026-02-07",
+      "result_date": null,
+      "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "1. CT Simulation Planning Scan: Ordered on 2026-02-07 for radiation therapy localization.",
+        "bounding_box": null
+      }
+    },
+    {
+      "investigation_name": "Mammography Surveillance",
+      "status": "ORDERED",
+      "order_date": null,
+      "result_date": null,
+      "result_status_text": "RESULT NOT FOUND IN CURRENTLY PROCESSED RECORDS",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "2. Mammography Surveillance: Scheduled at 6 months post-operatively.",
+        "bounding_box": null
+      }
+    }
+  ],
+  "source_documents": [
+    {
+      "document_id": "doc-001",
+      "file_name": "doc-001_visit_note_2026-01-05.pdf",
+      "pages": 2,
+      "title": "Visit Note 2026-01-05"
+    },
+    {
+      "document_id": "doc-002",
+      "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+      "pages": 2,
+      "title": "Pathology Report 2026-01-08"
+    },
+    {
+      "document_id": "doc-003",
+      "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+      "pages": 1,
+      "title": "Laboratory Report 2026-01-10"
+    },
+    {
+      "document_id": "doc-004",
+      "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+      "pages": 2,
+      "title": "Imaging Report 2026-01-14"
+    },
+    {
+      "document_id": "doc-005",
+      "file_name": "doc-005_prescription_2026-01-15.pdf",
+      "pages": 1,
+      "title": "Prescription 2026-01-15"
+    },
+    {
+      "document_id": "doc-006",
+      "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+      "pages": 2,
+      "title": "Procedure Note 2026-01-20"
+    },
+    {
+      "document_id": "doc-007",
+      "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+      "pages": 1,
+      "title": "Referral Letter 2026-01-21"
+    },
+    {
+      "document_id": "doc-008",
+      "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+      "pages": 1,
+      "title": "Laboratory Report 2026-02-05"
+    },
+    {
+      "document_id": "doc-009",
+      "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+      "pages": 2,
+      "title": "Followup Visit 2026-02-07"
+    },
+    {
+      "document_id": "doc-010",
+      "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+      "pages": 3,
+      "title": "Discharge Summary 2026-02-10"
+    }
+  ]
+}

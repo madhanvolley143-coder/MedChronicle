@@ -1,0 +1,108 @@
+{
+  "document_id": "doc-008",
+  "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+  "pages_processed": 1,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "doc-008-visit",
+        "date": "2026-02-05",
+        "facility": "Green Valley Diagnostic Centre",
+        "department": "Department of Clinical Hematology",
+        "visit_type": "Post-operative follow-up laboratory report"
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": "Laboratory report records: Hemoglobin value 12.8 g/dL",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range_text": "12.0 - 15.5 g/dL",
+        "date": "2026-02-05"
+      },
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Hematocrit",
+        "value": "38.2",
+        "unit": "%",
+        "reference_range_text": "36.0 - 46.0 %",
+        "date": "2026-02-05"
+      },
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Red Blood Cell Count (RBC)",
+        "value": "4.21",
+        "unit": "x10^6/uL",
+        "reference_range_text": "3.80 - 5.10 x10^6/uL",
+        "date": "2026-02-05"
+      },
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "White Blood Cell Count (WBC)",
+        "value": "6.1",
+        "unit": "x10^3/uL",
+        "reference_range_text": "4.5 - 11.0 x10^3/uL",
+        "date": "2026-02-05"
+      },
+      {
+        "source": {
+          "document_id": "doc-008",
+          "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+          "page_number": 1,
+          "text_anchor": null,
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Platelet Count",
+        "value": "255",
+        "unit": "x10^3/uL",
+        "reference_range_text": "150 - 450 x10^3/uL",
+        "date": "2026-02-05"
+      }
+    ],
+    "imaging_reports": [],
+    "medications": [],
+    "procedures": [],
+    "referrals": [],
+    "investigations": [],
+    "timeline_events": []
+  }
+}

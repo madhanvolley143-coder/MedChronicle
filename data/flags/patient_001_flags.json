@@ -1,0 +1,69 @@
+{
+  "patient_id": "SYN-CANCER-001",
+  "total_flags": 2,
+  "flag_types_present": [
+    "medication_documentation_mismatch",
+    "missing_result"
+  ],
+  "flags": [
+    {
+      "flag_id": "flag-med-mismatch-2",
+      "flag_type": "medication_documentation_mismatch",
+      "severity": "informational",
+      "title": "Medication Status Transition Documented: Tamoxifen",
+      "description": "Medication 'Tamoxifen' is documented with multiple status entries (continued, started) across different care encounters. No inference is made regarding medication administration.",
+      "category": "medications",
+      "sources": [
+        {
+          "document_id": "doc-005",
+          "file_name": "doc-005_prescription_2026-01-15.pdf",
+          "page_number": 1,
+          "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+          "bounding_box": null
+        },
+        {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+          "bounding_box": null
+        },
+        {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+          "bounding_box": null
+        }
+      ],
+      "metadata": {
+        "medicine_name": "tamoxifen",
+        "statuses": [
+          "continued",
+          "started"
+        ]
+      }
+    },
+    {
+      "flag_id": "flag-missing-result-1",
+      "flag_type": "missing_result",
+      "severity": "informational",
+      "title": "Documented Order Awaiting Result: Diagnostic Mammogram and Breast Ultrasound",
+      "description": "Investigation 'Diagnostic Mammogram and Breast Ultrasound' is documented as ordered on 2026-01-05. Result not found in currently processed records.",
+      "category": "investigations",
+      "sources": [
+        {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+          "bounding_box": null
+        }
+      ],
+      "metadata": {
+        "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+        "documented_status": "ordered"
+      }
+    }
+  ]
+}

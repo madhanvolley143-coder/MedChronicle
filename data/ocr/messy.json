@@ -1,0 +1,22 @@
+{
+  "document_id": "messy",
+  "file_name": "messy_document_photo.jpg",
+  "pages_processed": 1,
+  "classification": "IMAGE",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.912,
+  "min_ocr_confidence": 0.0,
+  "pages": [
+    {
+      "document_id": "messy",
+      "file_name": "messy_document_photo.jpg",
+      "page_number": 1,
+      "text": "GREEN VALLEY DIAGNOSTIC CENTRE | Doc: doc-003 | Date: 2026-01-10 SYNTHETIC RECORD: SYN-CANCER-001\n\nGREEN VALLEY DIAGNOSTIC CENTRE\nCLINICAL LABORATORY INVESTIGATION REPORT\n\nPatient ID: SYN-CANCER-001 (Synthetic) Document ID: doc-003\nDocument Date: 2026-01-10 Document Type: Laboratory Report\nFacility: Green Valley Diagnostic Centre Department: Clinical Chemistry & Hematology\n\nSPECIMEN & COLLECTION INFORMATION\nCollection Date/Time: 2026-01-10 08:30 EST | Specimen Type: Venous Blood (EDTA / Serum)\nOrdering Clinician: Surgical Oncology Service, Sunrise Oncology Centre\n\nLABORATORY RESULTS SUMMARY\n\nTest Name Result Value Uni locumented Reference Interval Status\n22.4 U/mL 0.0 - 30.0 U/mL Completed\nHemoglobin 13.4 g/dL 12.0 - 15.5 g/dL Completed\nWhite Blood Cells (WBC) 6.8 x1043/uL, 4.5 - 11.0 x10*3/uL Completed\nPlatelet Count 240 x1043/uL, 150 - 450 x10*3/uL Completed\nSerum Creatinine 0.85 mg/dL, 0.60 - 1.10 mg/dL Completed\nAlanine Aminotransferase (ALT) 22 U/L 7-35 U/L Completed\n\nDOCUMENTED EXTRACT ANCHORS\nLaboratory report records: CA 15-3 value 22.4 U/mL\nLaboratory report records: Hemoglobin value 13.4 g/dL\n\nLABORATORY DIRECTOR VERIFICATION\nCertified by: Clinical Chemistry Section Head, Green Valley Diagnostic Centre\nReport Released: 2026-01-10 14:15 EST\n\nFOR RESEARCH & ALGORITHM EVALUATION ONLY \u2014 100% SYNTHETIC DATA \u2014 NOT A REAL PATIENT RECORD Page 1 of 1",
+      "ocr_confidence": 0.912,
+      "ocr_confidence_min": 0.0,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

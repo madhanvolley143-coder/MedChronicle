@@ -1,0 +1,186 @@
+{
+  "document_id": "doc-002",
+  "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+  "pages_processed": 2,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 1,
+          "text_anchor": "GREEN VALLEY DIAGNOSTIC CENTRE SURGICAL PATHOLOGY & HISTOPATHOLOGY REPORT",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-01-08",
+        "facility": "Green Valley Diagnostic Centre",
+        "department": "Department of Anatomical Pathology",
+        "visit_type": "Pathology Report"
+      }
+    ],
+    "pathology_findings": [
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 1,
+          "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "Core Needle Biopsy, Right Breast",
+        "documented_text": "Specimen: Core Needle Biopsy, Right Breast.",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Invasive ductal carcinoma, histological Nottingham grade 2.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "Invasive ductal carcinoma",
+        "documented_text": "Invasive ductal carcinoma, histological Nottingham grade 2",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Estrogen receptor (ER) positive (85%)",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "Estrogen receptor",
+        "documented_text": "Estrogen receptor (ER) positive (85%)",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Progesterone receptor (PR) positive (70%)",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "Progesterone receptor",
+        "documented_text": "Progesterone receptor (PR) positive (70%)",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "HER2 negative (score 1+ by IHC).",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "HER2",
+        "documented_text": "HER2 negative (score 1+ by IHC)",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Ki-67 index: 15%.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "finding_name": "Ki-67 index",
+        "documented_text": "Ki-67 index: 15%",
+        "date": "2026-01-08"
+      }
+    ],
+    "laboratory_results": [
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Positive (85% strong nuclear staining)",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Estrogen Receptor (ER)",
+        "value": "Positive (85% strong nuclear staining)",
+        "unit": null,
+        "reference_range_text": "ASCO/CAP >= 1% positive",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Positive (70% moderate nuclear staining)",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Progesterone Receptor (PR)",
+        "value": "Positive (70% moderate nuclear staining)",
+        "unit": null,
+        "reference_range_text": "ASCO/CAP >= 1% positive",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "Negative (Score 1+ faint membrane staining)",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "HER2 / neu Protein",
+        "value": "Negative (Score 1+ faint membrane staining)",
+        "unit": null,
+        "reference_range_text": "ASCO/CAP Guidelines",
+        "date": "2026-01-08"
+      },
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 2,
+          "text_anchor": "15% nuclear labeling index",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Ki-67 Proliferation Index",
+        "value": "15",
+        "unit": "%",
+        "reference_range_text": "Documented count per 1000 cells",
+        "date": "2026-01-08"
+      }
+    ],
+    "imaging_reports": [],
+    "medications": [],
+    "procedures": [
+      {
+        "source": {
+          "document_id": "doc-002",
+          "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+          "page_number": 1,
+          "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.\nProcedure Date: 2026-01-08",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "Core Needle Biopsy, Right Breast",
+        "date": "2026-01-08",
+        "documented_status": "performed"
+      }
+    ],
+    "referrals": [],
+    "investigations": [],
+    "timeline_events": []
+  }
+}

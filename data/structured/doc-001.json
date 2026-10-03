@@ -1,0 +1,90 @@
+{
+  "document_id": "doc-001",
+  "file_name": "doc-001_visit_note_2026-01-05.pdf",
+  "pages_processed": 2,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 1,
+          "text_anchor": "Initial oncology consultation for palpable right breast mass.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "doc-001",
+        "date": "2026-01-05",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Initial oncology consultation"
+      },
+      {
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Surgical Oncology Service, Sunrise Oncology Centre",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v-2026-01-05",
+        "date": "2026-01-05",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Surgical Oncology Service",
+        "visit_type": null
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [],
+    "medications": [],
+    "procedures": [],
+    "referrals": [],
+    "investigations": [
+      {
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+        "status": "Ordered",
+        "ordered_date": "2026-01-05",
+        "result_date": null
+      },
+      {
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Image-Guided Core Needle Biopsy: Pending diagnostic imaging verification.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "Image-Guided Core Needle Biopsy",
+        "status": "Pending",
+        "ordered_date": null,
+        "result_date": null
+      },
+      {
+        "source": {
+          "document_id": "doc-001",
+          "file_name": "doc-001_visit_note_2026-01-05.pdf",
+          "page_number": 2,
+          "text_anchor": "Baseline Laboratory Panel: Complete blood count and serum tumor markers.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "Baseline Laboratory Panel",
+        "status": "Ordered",
+        "ordered_date": null,
+        "result_date": null
+      }
+    ],
+    "timeline_events": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "04",
+  "file_name": "04_2026-01-14_scanned_imaging_report.pdf",
+  "pages_processed": 1,
+  "classification": "SCANNED_PDF",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.0,
+  "min_ocr_confidence": 0.0,
+  "pages": [
+    {
+      "document_id": "04",
+      "file_name": "04_2026-01-14_scanned_imaging_report.pdf",
+      "page_number": 1,
+      "text": "",
+      "ocr_confidence": 0.0,
+      "ocr_confidence_min": 0.0,
+      "language": "eng"
+    }
+  ],
+  "status": "needs_review",
+  "reason": "OCR produced insufficient text"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "doc-conf",
+  "file_name": "conf_test.png",
+  "pages_processed": 1,
+  "classification": "IMAGE",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.514,
+  "min_ocr_confidence": 0.07,
+  "pages": [
+    {
+      "document_id": "doc-conf",
+      "file_name": "conf_test.png",
+      "page_number": 1,
+      "text": "Hemoglobin level 128 gid. recorded.",
+      "ocr_confidence": 0.514,
+      "ocr_confidence_min": 0.07,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

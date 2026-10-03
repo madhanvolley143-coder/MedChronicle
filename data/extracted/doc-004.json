@@ -1,0 +1,15 @@
+{
+  "document_id": "doc-004",
+  "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "SUNRISE ONCOLOGY CENTRE\nDIAGNOSTIC RADIOLOGY REPORT — COMPUTED TOMOGRAPHY\nPatient ID:\nSYN-CANCER-001 (Synthetic)\nDocument ID:\ndoc-004\nDocument Date:\n2026-01-14\nDocument Type:\nImaging Report\nFacility:\nSunrise Oncology Centre\nDepartment:\nDepartment of Diagnostic Imaging\nEXAMINATION DETAILS\nProcedure: Contrast-Enhanced CT Chest, Abdomen, and Pelvis (IV contrast administered).\nClinical Indication: Staging evaluation for newly diagnosed right breast carcinoma.\nTechnique: Axial helical acquisitions obtained from lung apices through ischial tuberosities with reconstructed coronal and sagittal\nreformations.\nTECHNICAL QUALITY & RADIATION DOSE\nDose-length product (DLP): 680 mGy*cm. Quality: Diagnostic, no motion artifacts.\nORGAN-BY-ORGAN PRELIMINARY OBSERVATIONS\nLower Neck / Thyroid: Visualized thyroid gland is unremarkable without nodules.\nMediastinum & Hila: No pathological lymphadenopathy detected in mediastinum or hilar stations.\nPleural Spaces: No pleural effusions or pleural thickening identified bilaterally.\nSUNRISE ONCOLOGY CENTRE | Doc: doc-004 | Date: 2026-01-14\nSYNTHETIC RECORD: SYN-CANCER-001\nFOR RESEARCH & ALGORITHM EVALUATION ONLY — 100% SYNTHETIC DATA — NOT A REAL PATIENT RECORD\nPage 1 of 2"
+    },
+    {
+      "page_number": 2,
+      "text": "DETAILED ANATOMICAL FINDINGS\nBreast & Chest Wall: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. Underlying pectoralis major muscle plane\nis preserved without direct invasion. Left breast unremarkable.\nLungs: No focal lesions in lung parenchyma. Tracheobronchial tree is clear.\nAbdomen: Liver is normal in size and attenuation; no focal lesions. Spleen, pancreas, adrenal glands, and kidneys unremarkable.\nPelvis: Bladder and pelvic organs unremarkable. No pelvic free fluid. No pathological lymphadenopathy detected in retroperitoneum.\nBones: No focal destructive or blastic lesions in osseous structures.\nIMPRESSION & DOCUMENTED TEXT ANCHOR\nImaging report states: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. No focal lesions in lung parenchyma,\nliver, or osseous structures. No pathological lymphadenopathy detected in mediastinum or retroperitoneum.\nREPORTING RADIOLOGIST\nInterpreting Radiologist: Staff Radiologist, Sunrise Diagnostic Imaging\nFinal Verification: 2026-01-14 16:10 EST\nSUNRISE ONCOLOGY CENTRE | Doc: doc-004 | Date: 2026-01-14\nSYNTHETIC RECORD: SYN-CANCER-001\nFOR RESEARCH & ALGORITHM EVALUATION ONLY — 100% SYNTHETIC DATA — NOT A REAL PATIENT RECORD\nPage 2 of 2"
+    }
+  ]
+}

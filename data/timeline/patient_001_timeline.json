@@ -1,0 +1,1291 @@
+{
+  "patient_id": "SYN-CANCER-001",
+  "total_events": 65,
+  "dated_events_count": 58,
+  "undated_events_count": 7,
+  "earliest_date": "2026-01-05",
+  "latest_date": "2026-05-12",
+  "events": [
+    {
+      "event_id": "doc-001-visit-1",
+      "date": "2026-01-05",
+      "event_type": "visit",
+      "title": "Initial oncology consultation: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department of Surgical Oncology.",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Initial oncology consultation for palpable right breast mass.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Initial oncology consultation"
+      }
+    },
+    {
+      "event_id": "doc-001-inv-3",
+      "date": "2026-01-05",
+      "event_type": "investigation",
+      "title": "Investigation: Diagnostic Mammogram and Breast Ultrasound",
+      "description": "Status: Ordered. Ordered: 2026-01-05, Result: N/A",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Diagnostic Mammogram and Breast Ultrasound: Ordered on 2026-01-05 for anatomical characterization.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+        "status": "Ordered",
+        "ordered_date": "2026-01-05",
+        "result_date": null
+      }
+    },
+    {
+      "event_id": "doc-001-visit-2",
+      "date": "2026-01-05",
+      "event_type": "visit",
+      "title": "Clinical Visit: Sunrise Oncology Centre",
+      "description": "Documented encounter in Surgical Oncology Service.",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Surgical Oncology Service, Sunrise Oncology Centre",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Surgical Oncology Service",
+        "visit_type": "Clinical Visit"
+      }
+    },
+    {
+      "event_id": "doc-002-path-2",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: Core Needle Biopsy, Right Breast",
+      "description": "Specimen: Core Needle Biopsy, Right Breast.",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "Core Needle Biopsy, Right Breast"
+      }
+    },
+    {
+      "event_id": "doc-002-proc-12",
+      "date": "2026-01-08",
+      "event_type": "procedure",
+      "title": "Procedure: Core Needle Biopsy, Right Breast",
+      "description": "Documented procedure status: performed.",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Specimen: Core Needle Biopsy, Right Breast.\nProcedure Date: 2026-01-08",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "Core Needle Biopsy, Right Breast",
+        "status": "performed"
+      }
+    },
+    {
+      "event_id": "doc-002-visit-1",
+      "date": "2026-01-08",
+      "event_type": "visit",
+      "title": "Pathology Report: Green Valley Diagnostic Centre",
+      "description": "Documented encounter in Department of Anatomical Pathology.",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "GREEN VALLEY DIAGNOSTIC CENTRE SURGICAL PATHOLOGY & HISTOPATHOLOGY REPORT",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Green Valley Diagnostic Centre",
+        "department": "Department of Anatomical Pathology",
+        "visit_type": "Pathology Report"
+      }
+    },
+    {
+      "event_id": "doc-002-lab-10",
+      "date": "2026-01-08",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: HER2 / neu Protein",
+      "description": "HER2 / neu Protein documented value: Negative (Score 1+ faint membrane staining) (Reference interval: ASCO/CAP Guidelines)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Negative (Score 1+ faint membrane staining)",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "HER2 / neu Protein",
+        "value": "Negative (Score 1+ faint membrane staining)",
+        "unit": "",
+        "reference_range": "ASCO/CAP Guidelines"
+      }
+    },
+    {
+      "event_id": "doc-002-lab-11",
+      "date": "2026-01-08",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Ki-67 Proliferation Index",
+      "description": "Ki-67 Proliferation Index documented value: 15 % (Reference interval: Documented count per 1000 cells)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "15% nuclear labeling index",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Ki-67 Proliferation Index",
+        "value": "15",
+        "unit": "%",
+        "reference_range": "Documented count per 1000 cells"
+      }
+    },
+    {
+      "event_id": "doc-002-lab-8",
+      "date": "2026-01-08",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Estrogen Receptor (ER)",
+      "description": "Estrogen Receptor (ER) documented value: Positive (85% strong nuclear staining) (Reference interval: ASCO/CAP >= 1% positive)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Positive (85% strong nuclear staining)",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Estrogen Receptor (ER)",
+        "value": "Positive (85% strong nuclear staining)",
+        "unit": "",
+        "reference_range": "ASCO/CAP >= 1% positive"
+      }
+    },
+    {
+      "event_id": "doc-002-lab-9",
+      "date": "2026-01-08",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Progesterone Receptor (PR)",
+      "description": "Progesterone Receptor (PR) documented value: Positive (70% moderate nuclear staining) (Reference interval: ASCO/CAP >= 1% positive)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Positive (70% moderate nuclear staining)",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Progesterone Receptor (PR)",
+        "value": "Positive (70% moderate nuclear staining)",
+        "unit": "",
+        "reference_range": "ASCO/CAP >= 1% positive"
+      }
+    },
+    {
+      "event_id": "doc-002-path-3",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: Invasive ductal carcinoma",
+      "description": "Invasive ductal carcinoma, histological Nottingham grade 2",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Invasive ductal carcinoma, histological Nottingham grade 2.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "Invasive ductal carcinoma"
+      }
+    },
+    {
+      "event_id": "doc-002-path-4",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: Estrogen receptor",
+      "description": "Estrogen receptor (ER) positive (85%)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Estrogen receptor (ER) positive (85%)",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "Estrogen receptor"
+      }
+    },
+    {
+      "event_id": "doc-002-path-5",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: Progesterone receptor",
+      "description": "Progesterone receptor (PR) positive (70%)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Progesterone receptor (PR) positive (70%)",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "Progesterone receptor"
+      }
+    },
+    {
+      "event_id": "doc-002-path-6",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: HER2",
+      "description": "HER2 negative (score 1+ by IHC)",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "HER2 negative (score 1+ by IHC).",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "HER2"
+      }
+    },
+    {
+      "event_id": "doc-002-path-7",
+      "date": "2026-01-08",
+      "event_type": "pathology",
+      "title": "Pathology: Ki-67 index",
+      "description": "Ki-67 index: 15%",
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+        "page_number": 2,
+        "text_anchor": "Ki-67 index: 15%.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "finding_name": "Ki-67 index"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-2",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: CA 15-3",
+      "description": "CA 15-3 documented value: 22.4 U/mL (Reference interval: 0.0 - 30.0 U/mL)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: CA 15-3 value 22.4 U/mL",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "CA 15-3",
+        "value": "22.4",
+        "unit": "U/mL",
+        "reference_range": "0.0 - 30.0 U/mL"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-3",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Hemoglobin",
+      "description": "Hemoglobin documented value: 13.4 g/dL (Reference interval: 12.0 - 15.5 g/dL)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 13.4 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "reference_range": "12.0 - 15.5 g/dL"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-4",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: White Blood Cells (WBC)",
+      "description": "White Blood Cells (WBC) documented value: 6.8 x10^3/uL (Reference interval: 4.5 - 11.0 x10^3/uL)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "White Blood Cells (WBC) 6.8 x10^3/uL 4.5 - 11.0 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "White Blood Cells (WBC)",
+        "value": "6.8",
+        "unit": "x10^3/uL",
+        "reference_range": "4.5 - 11.0 x10^3/uL"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-5",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Platelet Count",
+      "description": "Platelet Count documented value: 240 x10^3/uL (Reference interval: 150 - 450 x10^3/uL)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Platelet Count 240 x10^3/uL 150 - 450 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Platelet Count",
+        "value": "240",
+        "unit": "x10^3/uL",
+        "reference_range": "150 - 450 x10^3/uL"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-6",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Serum Creatinine",
+      "description": "Serum Creatinine documented value: 0.85 mg/dL (Reference interval: 0.60 - 1.10 mg/dL)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Serum Creatinine 0.85 mg/dL 0.60 - 1.10 mg/dL Completed",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Serum Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.60 - 1.10 mg/dL"
+      }
+    },
+    {
+      "event_id": "doc-003-lab-7",
+      "date": "2026-01-10",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Alanine Aminotransferase (ALT)",
+      "description": "Alanine Aminotransferase (ALT) documented value: 22 U/L (Reference interval: 7 - 35 U/L)",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Alanine Aminotransferase (ALT) 22 U/L 7 - 35 U/L Completed",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Alanine Aminotransferase (ALT)",
+        "value": "22",
+        "unit": "U/L",
+        "reference_range": "7 - 35 U/L"
+      }
+    },
+    {
+      "event_id": "doc-003-visit-1",
+      "date": "2026-01-10",
+      "event_type": "visit",
+      "title": "Laboratory Investigation: Green Valley Diagnostic Centre",
+      "description": "Documented encounter in Clinical Chemistry & Hematology.",
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "GREEN VALLEY DIAGNOSTIC CENTRE CLINICAL LABORATORY INVESTIGATION REPORT",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Green Valley Diagnostic Centre",
+        "department": "Clinical Chemistry & Hematology",
+        "visit_type": "Laboratory Investigation"
+      }
+    },
+    {
+      "event_id": "doc-004-img-2",
+      "date": "2026-01-14",
+      "event_type": "imaging",
+      "title": "Imaging: CT - Chest, Abdomen, and Pelvis",
+      "description": "Lower Neck / Thyroid: Visualized thyroid gland is unremarkable without nodules. Mediastinum & Hila: No pathological lymphadenopathy detected in mediastinum or hilar stations. Pleural Spaces: No pleural effusions or pleural thickening identified bilaterally.",
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure: Contrast-Enhanced CT Chest, Abdomen, and Pelvis (IV contrast administered).",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "modality": "CT",
+        "body_site": "Chest, Abdomen, and Pelvis"
+      }
+    },
+    {
+      "event_id": "doc-004-visit-1",
+      "date": "2026-01-14",
+      "event_type": "visit",
+      "title": "Imaging Report: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department of Diagnostic Imaging.",
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+        "page_number": 1,
+        "text_anchor": "DIAGNOSTIC RADIOLOGY REPORT \u2014 COMPUTED TOMOGRAPHY",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Diagnostic Imaging",
+        "visit_type": "Imaging Report"
+      }
+    },
+    {
+      "event_id": "doc-004-img-3",
+      "date": "2026-01-14",
+      "event_type": "imaging",
+      "title": "Imaging: Imaging - Breast & Chest Wall, Lungs, Abdomen, Pelvis, Bones",
+      "description": "2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. Underlying pectoralis major muscle plane is preserved without direct invasion. Left breast unremarkable. Lungs: No focal lesions in lung parenchyma. Tracheobronchial tree is clear. Abdomen: Liver is normal in size and attenuation; no focal lesions. Spleen, pancreas, adrenal glands, and kidneys unremarkable. Pelvis: Bladder and pelvic organs unremarkable. No pelvic free fluid. No pathological lymphadenopathy detected in retroperitoneum. Bones: No focal destructive or blastic lesions in osseous structures.",
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "doc-004_imaging_report_2026-01-14.pdf",
+        "page_number": 2,
+        "text_anchor": "DETAILED ANATOMICAL FINDINGS",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "modality": "Imaging",
+        "body_site": "Breast & Chest Wall, Lungs, Abdomen, Pelvis, Bones"
+      }
+    },
+    {
+      "event_id": "doc-005-med-2",
+      "date": "2026-01-15",
+      "event_type": "medication",
+      "title": "Medication: Tamoxifen",
+      "description": "Status: started. Regimen: 1 tablet (20 mg) Oral once daily",
+      "source": {
+        "document_id": "doc-005",
+        "file_name": "doc-005_prescription_2026-01-15.pdf",
+        "page_number": 1,
+        "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "medicine_name": "Tamoxifen",
+        "status": "started",
+        "dose": "1 tablet (20 mg)"
+      }
+    },
+    {
+      "event_id": "doc-005-visit-1",
+      "date": "2026-01-15",
+      "event_type": "visit",
+      "title": "Prescription: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department of Medical Oncology.",
+      "source": {
+        "document_id": "doc-005",
+        "file_name": "doc-005_prescription_2026-01-15.pdf",
+        "page_number": 1,
+        "text_anchor": "SUNRISE ONCOLOGY CENTRE OUTPATIENT PHARMACY PRESCRIPTION ORDER",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Medical Oncology",
+        "visit_type": "Prescription"
+      }
+    },
+    {
+      "event_id": "doc-009-med-3",
+      "date": "2026-01-15",
+      "event_type": "medication",
+      "title": "Medication: Tamoxifen",
+      "description": "Status: continued. Regimen: 20 mg oral daily",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "medicine_name": "Tamoxifen",
+        "status": "continued",
+        "dose": "20 mg"
+      }
+    },
+    {
+      "event_id": "doc-006-proc-3",
+      "date": "2026-01-20",
+      "event_type": "procedure",
+      "title": "Procedure: Right partial mastectomy with sentinel lymph node biopsy",
+      "description": "Documented procedure status: completed.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "status": "completed"
+      }
+    },
+    {
+      "event_id": "doc-006-visit-1",
+      "date": "2026-01-20",
+      "event_type": "visit",
+      "title": "Procedure Note: Sunrise Oncology Centre",
+      "description": "Documented encounter in Operating Room / Surgical Oncology.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "SUNRISE ONCOLOGY CENTRE OPERATIVE & PROCEDURE REPORT Document Date: 2026-01-20 Facility: Sunrise Oncology Centre Department: Operating Room / Surgical Oncology",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Operating Room / Surgical Oncology",
+        "visit_type": "Procedure Note"
+      }
+    },
+    {
+      "event_id": "doc-006-proc-4",
+      "date": "2026-01-20",
+      "event_type": "procedure",
+      "title": "Procedure: Right breast partial mastectomy",
+      "description": "Documented procedure status: completed.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "Right breast partial mastectomy",
+        "status": "completed"
+      }
+    },
+    {
+      "event_id": "doc-006-proc-5",
+      "date": "2026-01-20",
+      "event_type": "procedure",
+      "title": "Procedure: Sentinel lymph node biopsy",
+      "description": "Documented procedure status: completed.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "Sentinel lymph node biopsy",
+        "status": "completed"
+      }
+    },
+    {
+      "event_id": "doc-006-ev-6",
+      "date": "2026-01-20",
+      "event_type": "surgery",
+      "title": "Surgery: doc-006",
+      "description": "Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Operative Record Completed: 2026-01-20 15:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "event_id": "doc-006-visit-2",
+      "date": "2026-01-20",
+      "event_type": "visit",
+      "title": "surgery: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department.",
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 2,
+        "text_anchor": "Operative Record Completed: 2026-01-20 15:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department",
+        "visit_type": "surgery"
+      }
+    },
+    {
+      "event_id": "doc-007-proc-2",
+      "date": "2026-01-20",
+      "event_type": "procedure",
+      "title": "Procedure: right partial mastectomy",
+      "description": "Documented procedure status: status-post.",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy on 2026-01-20",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "right partial mastectomy",
+        "status": "status-post"
+      }
+    },
+    {
+      "event_id": "doc-010-ev-12",
+      "date": "2026-01-20",
+      "event_type": "Admission",
+      "title": "Admission: doc-010",
+      "description": "Admission Date",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Admission Date: 2026-01-20",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "event_id": "doc-010-proc-9",
+      "date": "2026-01-20",
+      "event_type": "procedure",
+      "title": "Procedure: Right partial mastectomy with sentinel lymph node biopsy",
+      "description": "Documented procedure status: performed.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "status": "performed"
+      }
+    },
+    {
+      "event_id": "doc-007-ev-4",
+      "date": "2026-01-21",
+      "event_type": "Referral",
+      "title": "Referral: doc-007",
+      "description": "Referral Request Date: 2026-01-21",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Referral Request Date: 2026-01-21",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "event_id": "doc-007-ref-3",
+      "date": "2026-01-21",
+      "event_type": "referral",
+      "title": "Referral: Department of Radiation Oncology, Sunrise Oncology Centre",
+      "description": "Clinical referral request status: scheduled.",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Referred To: Department of Radiation Oncology, Sunrise Oncology Centre",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "referred_to": "Department of Radiation Oncology, Sunrise Oncology Centre",
+        "status": "scheduled"
+      }
+    },
+    {
+      "event_id": "doc-007-visit-1",
+      "date": "2026-01-21",
+      "event_type": "visit",
+      "title": "Referral Letter: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department of Surgical Oncology.",
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Sunrise Oncology Centre",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Referral Letter"
+      }
+    },
+    {
+      "event_id": "doc-008-lab-2",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Hemoglobin",
+      "description": "Hemoglobin documented value: 12.8 g/dL (Reference interval: 12.0 - 15.5 g/dL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 12.8 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range": "12.0 - 15.5 g/dL"
+      }
+    },
+    {
+      "event_id": "doc-008-lab-3",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Hematocrit",
+      "description": "Hematocrit documented value: 38.2 % (Reference interval: 36.0 - 46.0 %)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Hematocrit",
+        "value": "38.2",
+        "unit": "%",
+        "reference_range": "36.0 - 46.0 %"
+      }
+    },
+    {
+      "event_id": "doc-008-lab-4",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Red Blood Cell Count (RBC)",
+      "description": "Red Blood Cell Count (RBC) documented value: 4.21 x10^6/uL (Reference interval: 3.80 - 5.10 x10^6/uL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Red Blood Cell Count (RBC)",
+        "value": "4.21",
+        "unit": "x10^6/uL",
+        "reference_range": "3.80 - 5.10 x10^6/uL"
+      }
+    },
+    {
+      "event_id": "doc-008-lab-5",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: White Blood Cell Count (WBC)",
+      "description": "White Blood Cell Count (WBC) documented value: 6.1 x10^3/uL (Reference interval: 4.5 - 11.0 x10^3/uL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "White Blood Cell Count (WBC)",
+        "value": "6.1",
+        "unit": "x10^3/uL",
+        "reference_range": "4.5 - 11.0 x10^3/uL"
+      }
+    },
+    {
+      "event_id": "doc-008-lab-6",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Platelet Count",
+      "description": "Platelet Count documented value: 255 x10^3/uL (Reference interval: 150 - 450 x10^3/uL)",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Platelet Count",
+        "value": "255",
+        "unit": "x10^3/uL",
+        "reference_range": "150 - 450 x10^3/uL"
+      }
+    },
+    {
+      "event_id": "doc-008-visit-1",
+      "date": "2026-02-05",
+      "event_type": "visit",
+      "title": "Post-operative follow-up laboratory report: Green Valley Diagnostic Centre",
+      "description": "Documented encounter in Department of Clinical Hematology.",
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Green Valley Diagnostic Centre",
+        "department": "Department of Clinical Hematology",
+        "visit_type": "Post-operative follow-up laboratory report"
+      }
+    },
+    {
+      "event_id": "doc-010-lab-6",
+      "date": "2026-02-05",
+      "event_type": "laboratory",
+      "title": "Laboratory Test: Hemoglobin",
+      "description": "Hemoglobin documented value: 12.8 g/dL",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Hemoglobin at 12.8 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range": null
+      }
+    },
+    {
+      "event_id": "doc-009-visit-1",
+      "date": "2026-02-07",
+      "event_type": "visit",
+      "title": "Post-Operative Follow-Up: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department of Surgical Oncology.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Visit ID: VIS-002 | Visit Type: Post-Operative Follow-Up",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Post-Operative Follow-Up"
+      }
+    },
+    {
+      "event_id": "doc-009-inv-6",
+      "date": "2026-02-07",
+      "event_type": "investigation",
+      "title": "Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+      "description": "Status: ordered. Ordered: 2026-02-07, Result: N/A",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 2,
+        "text_anchor": "Ordered Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "status": "ordered",
+        "ordered_date": "2026-02-07",
+        "result_date": null
+      }
+    },
+    {
+      "event_id": "doc-009-visit-2",
+      "date": "2026-02-07",
+      "event_type": "visit",
+      "title": "Clinical Visit: Sunrise Oncology Centre",
+      "description": "Documented encounter in Department.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 2,
+        "text_anchor": "Encounter Finalized: 2026-02-07 14:30 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department",
+        "visit_type": "Clinical Visit"
+      }
+    },
+    {
+      "event_id": "doc-010-inv-10",
+      "date": "2026-02-07",
+      "event_type": "investigation",
+      "title": "Investigation: CT Simulation Planning Scan",
+      "description": "Status: Ordered. Ordered: 2026-02-07, Result: N/A",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "1. CT Simulation Planning Scan: Ordered on 2026-02-07 for radiation therapy localization.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "CT Simulation Planning Scan",
+        "status": "Ordered",
+        "ordered_date": "2026-02-07",
+        "result_date": null
+      }
+    },
+    {
+      "event_id": "doc-010-ev-13",
+      "date": "2026-02-10",
+      "event_type": "Discharge Finalized",
+      "title": "Discharge Finalized: doc-010",
+      "description": "Discharge Finalized",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Discharge Finalized: 2026-02-10",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "event_id": "doc-010-visit-1",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "title": "Discharge Summary: Sunrise Oncology Centre",
+      "description": "Documented encounter in Inpatient Surgical Oncology Service.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "SUNRISE ONCOLOGY CENTRE\nINPATIENT SURGICAL ONCOLOGY DISCHARGE SUMMARY",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Inpatient Surgical Oncology Service",
+        "visit_type": "Discharge Summary"
+      }
+    },
+    {
+      "event_id": "doc-010-visit-2",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "title": "discharge summary: SUNRISE ONCOLOGY CENTRE",
+      "description": "Documented encounter in Department.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "DISCHARGE STATUS & SUMMARY RECORD",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "SUNRISE ONCOLOGY CENTRE",
+        "department": "Department",
+        "visit_type": "discharge summary"
+      }
+    },
+    {
+      "event_id": "doc-010-ev-14",
+      "date": "2026-02-10",
+      "event_type": "discharge",
+      "title": "Discharge: doc-010",
+      "description": "The patient was discharged in stable clinical condition.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "The patient was discharged in stable clinical condition.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {}
+    },
+    {
+      "event_id": "doc-010-visit-3",
+      "date": "2026-02-18",
+      "event_type": "visit",
+      "title": "Clinical Visit: Sunrise Oncology Centre",
+      "description": "Documented encounter in Radiation Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Radiation Oncology Sunrise Oncology Centre 2026-02-18 10:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Radiation Oncology",
+        "visit_type": "Clinical Visit"
+      }
+    },
+    {
+      "event_id": "doc-010-visit-4",
+      "date": "2026-03-05",
+      "event_type": "visit",
+      "title": "Clinical Visit: Sunrise Oncology Centre",
+      "description": "Documented encounter in Medical Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Medical Oncology Sunrise Oncology Centre 2026-03-05 14:00 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Medical Oncology",
+        "visit_type": "Clinical Visit"
+      }
+    },
+    {
+      "event_id": "doc-010-visit-5",
+      "date": "2026-05-12",
+      "event_type": "visit",
+      "title": "Clinical Visit: Sunrise Oncology Centre",
+      "description": "Documented encounter in Surgical Oncology.",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 3,
+        "text_anchor": "Surgical Oncology Sunrise Oncology Centre 2026-05-12 11:30 EST",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "facility": "Sunrise Oncology Centre",
+        "department": "Surgical Oncology",
+        "visit_type": "Clinical Visit"
+      }
+    }
+  ],
+  "undated_events": [
+    {
+      "event_id": "doc-001-inv-4",
+      "date": null,
+      "event_type": "investigation",
+      "title": "Investigation: Image-Guided Core Needle Biopsy",
+      "description": "Status: Pending. Ordered: N/A, Result: N/A",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Image-Guided Core Needle Biopsy: Pending diagnostic imaging verification.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "Image-Guided Core Needle Biopsy",
+        "status": "Pending",
+        "ordered_date": null,
+        "result_date": null
+      }
+    },
+    {
+      "event_id": "doc-001-inv-5",
+      "date": null,
+      "event_type": "investigation",
+      "title": "Investigation: Baseline Laboratory Panel",
+      "description": "Status: Ordered. Ordered: N/A, Result: N/A",
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "doc-001_visit_note_2026-01-05.pdf",
+        "page_number": 2,
+        "text_anchor": "Baseline Laboratory Panel: Complete blood count and serum tumor markers.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "Baseline Laboratory Panel",
+        "status": "Ordered",
+        "ordered_date": null,
+        "result_date": null
+      }
+    },
+    {
+      "event_id": "doc-009-proc-4",
+      "date": null,
+      "event_type": "procedure",
+      "title": "Procedure: right partial mastectomy",
+      "description": "Documented procedure status: performed.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "right partial mastectomy",
+        "status": "performed"
+      }
+    },
+    {
+      "event_id": "doc-009-proc-5",
+      "date": null,
+      "event_type": "procedure",
+      "title": "Procedure: sentinel lymph node dissection",
+      "description": "Documented procedure status: performed.",
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "sentinel lymph node dissection",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "procedure_name": "sentinel lymph node dissection",
+        "status": "performed"
+      }
+    },
+    {
+      "event_id": "doc-010-med-7",
+      "date": null,
+      "event_type": "medication",
+      "title": "Medication: Tamoxifen",
+      "description": "Status: continued. Regimen: 1 tablet orally daily",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "medicine_name": "Tamoxifen",
+        "status": "continued",
+        "dose": "1 tablet"
+      }
+    },
+    {
+      "event_id": "doc-010-med-8",
+      "date": null,
+      "event_type": "medication",
+      "title": "Medication: Acetaminophen",
+      "description": "Status: as needed. Regimen: 1-2 tablets orally every 6 hours PRN mild pain",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Acetaminophen 500 mg 1-2 tablets orally every 6 hours PRN mild pain as needed",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "medicine_name": "Acetaminophen",
+        "status": "as needed",
+        "dose": "1-2 tablets"
+      }
+    },
+    {
+      "event_id": "doc-010-inv-11",
+      "date": null,
+      "event_type": "investigation",
+      "title": "Investigation: Mammography Surveillance",
+      "description": "Status: Scheduled. Ordered: N/A, Result: N/A",
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "2. Mammography Surveillance: Scheduled at 6 months post-operatively.",
+        "bounding_box": null
+      },
+      "confidence": 1.0,
+      "metadata": {
+        "investigation_name": "Mammography Surveillance",
+        "status": "Scheduled",
+        "ordered_date": null,
+        "result_date": null
+      }
+    }
+  ]
+}

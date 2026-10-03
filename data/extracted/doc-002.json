@@ -1,0 +1,15 @@
+{
+  "document_id": "doc-002",
+  "file_name": "doc-002_pathology_report_2026-01-08.pdf",
+  "page_count": 2,
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "GREEN VALLEY DIAGNOSTIC CENTRE\nSURGICAL PATHOLOGY & HISTOPATHOLOGY REPORT\nPatient ID:\nSYN-CANCER-001 (Synthetic)\nDocument ID:\ndoc-002\nDocument Date:\n2026-01-08\nDocument Type:\nPathology Report\nFacility:\nGreen Valley Diagnostic Centre\nDepartment:\nDepartment of Anatomical Pathology\nSPECIMEN IDENTIFICATION & CLINICAL DATA\nSpecimen: Core Needle Biopsy, Right Breast.\nProcedure Date: 2026-01-08\nClinical History: Palpable right breast mass in upper-outer quadrant.\nGROSS / MACROSCOPIC DESCRIPTION\nReceived in formalin labeled with synthetic patient ID SYN-CANCER-001 are four (4) core needle biopsy fragments. The tissue cores\nrange in length from 1.1 cm to 1.6 cm, with a uniform diameter of 0.1 cm. Color is tan-white to fibrofatty. Entire specimen submitted in one\ncassette (Block A1).\nPROCESSING PROTOCOL\nStandard formalin fixation (18 hours), automated paraffin embedding, 4-micron microtomy sections, and routine Hematoxylin & Eosin\n(H&E;) staining performed. Immunohistochemical (IHC) profiling initiated.\nGREEN VALLEY DIAGNOSTIC CENTRE | Doc: doc-002 | Date: 2026-01-08\nSYNTHETIC RECORD: SYN-CANCER-001\nFOR RESEARCH & ALGORITHM EVALUATION ONLY — 100% SYNTHETIC DATA — NOT A REAL PATIENT RECORD\nPage 1 of 2"
+    },
+    {
+      "page_number": 2,
+      "text": "MICROSCOPIC DESCRIPTION & FINAL DOCUMENTED FINDINGS\nSections demonstrate invasive carcinoma with glandular and corded architectural patterns. Tubule formation is moderate. Nuclei exhibit\nmoderate pleomorphism with occasional visible mitotic figures. Surrounding stroma reveals desmoplastic reaction with minimal\nlymphocytic infiltrate.\nDocumented Histopathology Diagnosis:\nPathology report documents: Invasive ductal carcinoma, histological Nottingham grade 2. Estrogen receptor (ER) positive (85%),\nProgesterone receptor (PR) positive (70%), HER2 negative (score 1+ by IHC). Ki-67 index: 15%.\nIMMUNOHISTOCHEMICAL BIOMARKER PROFILE\nBiomarker\nMethod\nDocumented Result\nReference Criteria\nEstrogen Receptor (ER)\nIHC (Clone SP1)\nPositive (85% strong nuclear staining)\nASCO/CAP >= 1% positive\nProgesterone Receptor (PR)\nIHC (Clone 1E2)\nPositive (70% moderate nuclear staining)\nASCO/CAP >= 1% positive\nHER2 / neu Protein\nIHC (Clone 4B5)\nNegative (Score 1+ faint membrane staining)ASCO/CAP Guidelines\nKi-67 Proliferation Index\nIHC (Clone MIB-1)\n15% nuclear labeling index\nDocumented count per 1000 cells\nPATHOLOGIST SIGN-OFF\nReporting Pathologist: Green Valley Diagnostic Pathology Staff\nGREEN VALLEY DIAGNOSTIC CENTRE | Doc: doc-002 | Date: 2026-01-08\nSYNTHETIC RECORD: SYN-CANCER-001\nFOR RESEARCH & ALGORITHM EVALUATION ONLY — 100% SYNTHETIC DATA — NOT A REAL PATIENT RECORD\nPage 2 of 2"
+    }
+  ]
+}

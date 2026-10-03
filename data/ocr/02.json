@@ -1,0 +1,22 @@
+{
+  "document_id": "02",
+  "file_name": "02_2026-01-08_pathology_report.pdf",
+  "pages_processed": 1,
+  "classification": "SCANNED_PDF",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.96,
+  "min_ocr_confidence": 0.96,
+  "pages": [
+    {
+      "document_id": "02",
+      "file_name": "02_2026-01-08_pathology_report.pdf",
+      "page_number": 1,
+      "text": "Pathology Report text",
+      "ocr_confidence": 0.96,
+      "ocr_confidence_min": 0.96,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

@@ -1,0 +1,107 @@
+{
+  "document_id": "doc-009",
+  "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+  "pages_processed": 2,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "Visit ID: VIS-002 | Visit Type: Post-Operative Follow-Up",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "VIS-002",
+        "date": "2026-02-07",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Post-Operative Follow-Up"
+      },
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 2,
+          "text_anchor": "Encounter Finalized: 2026-02-07 14:30 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-02-07",
+        "facility": "Sunrise Oncology Centre",
+        "department": null,
+        "visit_type": null
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [],
+    "medications": [
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "medicine_name": "Tamoxifen",
+        "strength": "20 mg",
+        "dose": null,
+        "frequency": "daily",
+        "route": "oral",
+        "status": "continued",
+        "date": "2026-01-15"
+      }
+    ],
+    "procedures": [
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "right partial mastectomy",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "right partial mastectomy",
+        "date": null,
+        "documented_status": "performed"
+      },
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 1,
+          "text_anchor": "sentinel lymph node dissection",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "sentinel lymph node dissection",
+        "date": null,
+        "documented_status": "performed"
+      }
+    ],
+    "referrals": [],
+    "investigations": [
+      {
+        "source": {
+          "document_id": "doc-009",
+          "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+          "page_number": 2,
+          "text_anchor": "Ordered Investigation: CT Simulation Planning Scan for Adjuvant Radiotherapy",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "CT Simulation Planning Scan for Adjuvant Radiotherapy",
+        "status": "ordered",
+        "ordered_date": "2026-02-07",
+        "result_date": null
+      }
+    ],
+    "timeline_events": []
+  }
+}

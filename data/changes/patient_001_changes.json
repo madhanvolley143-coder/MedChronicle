@@ -1,0 +1,170 @@
+{
+  "patient_id": "SYN-CANCER-001",
+  "total_changes_detected": 6,
+  "categories_with_changes": [
+    "laboratory_results",
+    "medications",
+    "procedures"
+  ],
+  "changes": [
+    {
+      "category": "laboratory_results",
+      "entity_name": "Hemoglobin",
+      "previous_value": "13.4 g/dL",
+      "latest_value": "12.8 g/dL",
+      "documented_difference": "13.4 g/dL -> 12.8 g/dL",
+      "is_changed": true,
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 13.4 g/dL",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Hemoglobin at 12.8 g/dL",
+        "bounding_box": null
+      },
+      "metadata": {
+        "previous_reference_range": "12.0 - 15.5 g/dL",
+        "latest_reference_range": null
+      }
+    },
+    {
+      "category": "laboratory_results",
+      "entity_name": "Platelet Count",
+      "previous_value": "240 x10^3/uL",
+      "latest_value": "255 x10^3/uL",
+      "documented_difference": "240 x10^3/uL -> 255 x10^3/uL",
+      "is_changed": true,
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Platelet Count 240 x10^3/uL 150 - 450 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "metadata": {
+        "previous_reference_range": "150 - 450 x10^3/uL",
+        "latest_reference_range": "150 - 450 x10^3/uL"
+      }
+    },
+    {
+      "category": "laboratory_results",
+      "entity_name": "White Blood Cell Count (WBC)",
+      "previous_value": "6.8 x10^3/uL",
+      "latest_value": "6.1 x10^3/uL",
+      "documented_difference": "6.8 x10^3/uL -> 6.1 x10^3/uL",
+      "is_changed": true,
+      "previous_date": "2026-01-10",
+      "latest_date": "2026-02-05",
+      "previous_source": {
+        "document_id": "doc-003",
+        "file_name": "doc-003_laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "White Blood Cells (WBC) 6.8 x10^3/uL 4.5 - 11.0 x10^3/uL Completed",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-008",
+        "file_name": "doc-008_laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": null,
+        "bounding_box": null
+      },
+      "metadata": {
+        "previous_reference_range": "4.5 - 11.0 x10^3/uL",
+        "latest_reference_range": "4.5 - 11.0 x10^3/uL"
+      }
+    },
+    {
+      "category": "medications",
+      "entity_name": "Tamoxifen",
+      "previous_value": "Status: continued, Dose: 1 tablet",
+      "latest_value": "Status: continued, Dose: 20 mg",
+      "documented_difference": "continued -> continued (Dose: 1 tablet -> 20 mg)",
+      "is_changed": true,
+      "previous_date": null,
+      "latest_date": "2026-01-15",
+      "previous_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Active Medication: Tamoxifen 20 mg oral daily continued as prescribed on 2026-01-15.",
+        "bounding_box": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "procedures",
+      "entity_name": "Right partial mastectomy with sentinel lymph node biopsy",
+      "previous_value": "Status: completed",
+      "latest_value": "Status: performed",
+      "documented_difference": "completed -> performed",
+      "is_changed": true,
+      "previous_date": "2026-01-20",
+      "latest_date": "2026-01-20",
+      "previous_source": {
+        "document_id": "doc-006",
+        "file_name": "doc-006_procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure Date: 2026-01-20 Documented Status: completed Procedure Performed: Right partial mastectomy with sentinel lymph node biopsy.",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-010",
+        "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+        "bounding_box": null
+      },
+      "metadata": {}
+    },
+    {
+      "category": "procedures",
+      "entity_name": "right partial mastectomy",
+      "previous_value": "Status: performed",
+      "latest_value": "Status: status-post",
+      "documented_difference": "performed -> status-post",
+      "is_changed": true,
+      "previous_date": null,
+      "latest_date": "2026-01-20",
+      "previous_source": {
+        "document_id": "doc-009",
+        "file_name": "doc-009_followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy",
+        "bounding_box": null
+      },
+      "latest_source": {
+        "document_id": "doc-007",
+        "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "right partial mastectomy on 2026-01-20",
+        "bounding_box": null
+      },
+      "metadata": {}
+    }
+  ]
+}

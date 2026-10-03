@@ -1,0 +1,22 @@
+{
+  "document_id": "05",
+  "file_name": "05_2026-01-15_prescription.jpg",
+  "pages_processed": 1,
+  "classification": "IMAGE",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.0,
+  "min_ocr_confidence": 0.0,
+  "pages": [
+    {
+      "document_id": "05",
+      "file_name": "05_2026-01-15_prescription.jpg",
+      "page_number": 1,
+      "text": "",
+      "ocr_confidence": 0.0,
+      "ocr_confidence_min": 0.0,
+      "language": "eng"
+    }
+  ],
+  "status": "needs_review",
+  "reason": "OCR produced insufficient text"
+}

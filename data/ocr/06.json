@@ -1,0 +1,22 @@
+{
+  "document_id": "06",
+  "file_name": "06_2026-02-05_followup_lab_report.pdf",
+  "pages_processed": 1,
+  "classification": "SCANNED_PDF",
+  "ocr_used": true,
+  "average_ocr_confidence": 0.96,
+  "min_ocr_confidence": 0.96,
+  "pages": [
+    {
+      "document_id": "06",
+      "file_name": "06_2026-02-05_followup_lab_report.pdf",
+      "page_number": 1,
+      "text": "Followup Lab text",
+      "ocr_confidence": 0.96,
+      "ocr_confidence_min": 0.96,
+      "language": "eng"
+    }
+  ],
+  "status": "success",
+  "reason": null
+}

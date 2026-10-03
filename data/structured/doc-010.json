@@ -1,0 +1,229 @@
+{
+  "document_id": "doc-010",
+  "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+  "pages_processed": 3,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "SUNRISE ONCOLOGY CENTRE\nINPATIENT SURGICAL ONCOLOGY DISCHARGE SUMMARY",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-02-10",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Inpatient Surgical Oncology Service",
+        "visit_type": "Discharge Summary"
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "DISCHARGE STATUS & SUMMARY RECORD",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "v1",
+        "date": "2026-02-10",
+        "facility": "SUNRISE ONCOLOGY CENTRE",
+        "department": null,
+        "visit_type": "discharge summary"
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 3,
+          "text_anchor": "Radiation Oncology Sunrise Oncology Centre 2026-02-18 10:00 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "visit_1",
+        "date": "2026-02-18",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Radiation Oncology",
+        "visit_type": null
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 3,
+          "text_anchor": "Medical Oncology Sunrise Oncology Centre 2026-03-05 14:00 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "visit_2",
+        "date": "2026-03-05",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Medical Oncology",
+        "visit_type": null
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 3,
+          "text_anchor": "Surgical Oncology Sunrise Oncology Centre 2026-05-12 11:30 EST",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "visit_3",
+        "date": "2026-05-12",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Surgical Oncology",
+        "visit_type": null
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Hemoglobin at 12.8 g/dL",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range_text": null,
+        "date": "2026-02-05"
+      }
+    ],
+    "imaging_reports": [],
+    "medications": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Tamoxifen 20 mg 1 tablet orally daily continued",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "medicine_name": "Tamoxifen",
+        "strength": "20 mg",
+        "dose": "1 tablet",
+        "frequency": "daily",
+        "route": "orally",
+        "status": "continued",
+        "date": null
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "Acetaminophen 500 mg 1-2 tablets orally every 6 hours PRN mild pain as needed",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "medicine_name": "Acetaminophen",
+        "strength": "500 mg",
+        "dose": "1-2 tablets",
+        "frequency": "every 6 hours PRN mild pain",
+        "route": "orally",
+        "status": "as needed",
+        "date": null
+      }
+    ],
+    "procedures": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Right partial mastectomy with sentinel lymph node biopsy on 2026-01-20",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+        "date": "2026-01-20",
+        "documented_status": "performed"
+      }
+    ],
+    "referrals": [],
+    "investigations": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "1. CT Simulation Planning Scan: Ordered on 2026-02-07 for radiation therapy localization.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "CT Simulation Planning Scan",
+        "status": "Ordered",
+        "ordered_date": "2026-02-07",
+        "result_date": null
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 2,
+          "text_anchor": "2. Mammography Surveillance: Scheduled at 6 months post-operatively.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "investigation_name": "Mammography Surveillance",
+        "status": "Scheduled",
+        "ordered_date": null,
+        "result_date": null
+      }
+    ],
+    "timeline_events": [
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Admission Date: 2026-01-20",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "event_id": "e1",
+        "date": "2026-01-20",
+        "event_type": "Admission",
+        "description": "Admission Date"
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 1,
+          "text_anchor": "Discharge Finalized: 2026-02-10",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "event_id": "e2",
+        "date": "2026-02-10",
+        "event_type": "Discharge Finalized",
+        "description": "Discharge Finalized"
+      },
+      {
+        "source": {
+          "document_id": "doc-010",
+          "file_name": "doc-010_discharge_summary_2026-02-10.pdf",
+          "page_number": 3,
+          "text_anchor": "The patient was discharged in stable clinical condition.",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "event_id": "event_1",
+        "date": "2026-02-10",
+        "event_type": "discharge",
+        "description": "The patient was discharged in stable clinical condition."
+      }
+    ]
+  }
+}

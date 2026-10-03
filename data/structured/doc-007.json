@@ -1,0 +1,75 @@
+{
+  "document_id": "doc-007",
+  "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+  "pages_processed": 1,
+  "facts": {
+    "visits": [
+      {
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "Sunrise Oncology Centre",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "visit_id": "doc-007",
+        "date": "2026-01-21",
+        "facility": "Sunrise Oncology Centre",
+        "department": "Department of Surgical Oncology",
+        "visit_type": "Referral Letter"
+      }
+    ],
+    "pathology_findings": [],
+    "laboratory_results": [],
+    "imaging_reports": [],
+    "medications": [],
+    "procedures": [
+      {
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "right partial mastectomy on 2026-01-20",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "procedure_name": "right partial mastectomy",
+        "date": "2026-01-20",
+        "documented_status": "status-post"
+      }
+    ],
+    "referrals": [
+      {
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "Referred To: Department of Radiation Oncology, Sunrise Oncology Centre",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "referred_to": "Department of Radiation Oncology, Sunrise Oncology Centre",
+        "date": "2026-01-21",
+        "status": "scheduled"
+      }
+    ],
+    "investigations": [],
+    "timeline_events": [
+      {
+        "source": {
+          "document_id": "doc-007",
+          "file_name": "doc-007_referral_letter_2026-01-21.pdf",
+          "page_number": 1,
+          "text_anchor": "Referral Request Date: 2026-01-21",
+          "bounding_box": null
+        },
+        "confidence": 1.0,
+        "event_id": "ev-1",
+        "date": "2026-01-21",
+        "event_type": "Referral",
+        "description": "Referral Request Date: 2026-01-21"
+      }
+    ]
+  }
+}

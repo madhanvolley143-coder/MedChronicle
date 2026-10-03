@@ -1,0 +1,409 @@
+{
+  "patient": {
+    "patient_id": "SYN-CANCER-001",
+    "synthetic": true,
+    "documents": [
+      {
+        "document_id": "doc-001",
+        "file_name": "visit_note_2026-01-05.pdf",
+        "document_type": "visit_note",
+        "document_date": "2026-01-05",
+        "page_count": 2
+      },
+      {
+        "document_id": "doc-002",
+        "file_name": "pathology_report_2026-01-08.pdf",
+        "document_type": "pathology_report",
+        "document_date": "2026-01-08",
+        "page_count": 2
+      },
+      {
+        "document_id": "doc-003",
+        "file_name": "laboratory_report_2026-01-10.pdf",
+        "document_type": "laboratory_report",
+        "document_date": "2026-01-10",
+        "page_count": 1
+      },
+      {
+        "document_id": "doc-004",
+        "file_name": "imaging_report_2026-01-14.pdf",
+        "document_type": "imaging_report",
+        "document_date": "2026-01-14",
+        "page_count": 2
+      },
+      {
+        "document_id": "doc-005",
+        "file_name": "prescription_2026-01-15.pdf",
+        "document_type": "prescription",
+        "document_date": "2026-01-15",
+        "page_count": 1
+      },
+      {
+        "document_id": "doc-006",
+        "file_name": "procedure_note_2026-01-20.pdf",
+        "document_type": "procedure_note",
+        "document_date": "2026-01-20",
+        "page_count": 2
+      },
+      {
+        "document_id": "doc-007",
+        "file_name": "referral_letter_2026-01-21.pdf",
+        "document_type": "referral_letter",
+        "document_date": "2026-01-21",
+        "page_count": 1
+      },
+      {
+        "document_id": "doc-008",
+        "file_name": "laboratory_report_2026-02-05.pdf",
+        "document_type": "laboratory_report",
+        "document_date": "2026-02-05",
+        "page_count": 1
+      },
+      {
+        "document_id": "doc-009",
+        "file_name": "followup_visit_2026-02-07.pdf",
+        "document_type": "visit_note",
+        "document_date": "2026-02-07",
+        "page_count": 2
+      },
+      {
+        "document_id": "doc-010",
+        "file_name": "discharge_summary_2026-02-10.pdf",
+        "document_type": "discharge_summary",
+        "document_date": "2026-02-10",
+        "page_count": 3
+      }
+    ]
+  },
+  "visits": [
+    {
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "visit_note_2026-01-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Initial oncology consultation for palpable right breast mass",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "visit_id": "VIS-001",
+      "date": "2026-01-05",
+      "facility": "Sunrise Oncology Centre",
+      "department": "Surgical Oncology",
+      "visit_type": "Initial Consultation"
+    },
+    {
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Post-operative surgical oncology follow-up consultation",
+        "bounding_box": null
+      },
+      "confidence": 0.97,
+      "visit_id": "VIS-002",
+      "date": "2026-02-07",
+      "facility": "Sunrise Oncology Centre",
+      "department": "Surgical Oncology",
+      "visit_type": "Post-Operative Follow-Up"
+    }
+  ],
+  "pathology_findings": [
+    {
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Pathology report documents: Invasive ductal carcinoma, histological Nottingham grade 2. ER positive (85%), PR positive (70%), HER2 negative (1+ by IHC). Ki-67 proliferation index: 15%.",
+        "bounding_box": null
+      },
+      "confidence": 0.99,
+      "finding_name": "Core Needle Biopsy, Right Breast",
+      "documented_text": "Pathology report documents: Invasive ductal carcinoma, histological Nottingham grade 2. Estrogen receptor (ER) positive (85%), Progesterone receptor (PR) positive (70%), HER2 negative (score 1+ by IHC). Ki-67 index: 15%.",
+      "date": "2026-01-08"
+    }
+  ],
+  "laboratory_results": [
+    {
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: CA 15-3 value 22.4 U/mL",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "test_name": "CA 15-3",
+      "value": "22.4",
+      "unit": "U/mL",
+      "reference_range_text": "0.0 - 30.0 U/mL",
+      "date": "2026-01-10"
+    },
+    {
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 13.4 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 0.99,
+      "test_name": "Hemoglobin",
+      "value": "13.4",
+      "unit": "g/dL",
+      "reference_range_text": "12.0 - 15.5 g/dL",
+      "date": "2026-01-10"
+    },
+    {
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 12.8 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "test_name": "Hemoglobin",
+      "value": "12.8",
+      "unit": "g/dL",
+      "reference_range_text": "12.0 - 15.5 g/dL",
+      "date": "2026-02-05"
+    }
+  ],
+  "imaging_reports": [
+    {
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "imaging_report_2026-01-14.pdf",
+        "page_number": 1,
+        "text_anchor": "Imaging report states: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. No focal lesions in lung parenchyma, liver, or osseous structures.",
+        "bounding_box": null
+      },
+      "confidence": 0.96,
+      "modality": "Contrast-Enhanced CT Chest/Abdomen/Pelvis",
+      "body_site": "Chest, Abdomen, Pelvis",
+      "report_text": "Imaging report states: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. No focal lesions in lung parenchyma, liver, or osseous structures. No pathological lymphadenopathy detected in mediastinum or retroperitoneum.",
+      "date": "2026-01-14"
+    }
+  ],
+  "medications": [
+    {
+      "source": {
+        "document_id": "doc-005",
+        "file_name": "prescription_2026-01-15.pdf",
+        "page_number": 1,
+        "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+        "bounding_box": null
+      },
+      "confidence": 0.95,
+      "medicine_name": "Tamoxifen",
+      "strength": "20 mg",
+      "dose": "20 mg once daily",
+      "frequency": "Daily",
+      "route": "Oral",
+      "status": "started",
+      "date": "2026-01-15"
+    }
+  ],
+  "procedures": [
+    {
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure note documents: Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "procedure_name": "Right partial mastectomy with sentinel lymph node biopsy",
+      "date": "2026-01-20",
+      "documented_status": "completed"
+    }
+  ],
+  "referrals": [
+    {
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Referral letter documents request for adjuvant radiation oncology consultation.",
+        "bounding_box": null
+      },
+      "confidence": 0.96,
+      "referred_to": "Department of Radiation Oncology, Sunrise Oncology Centre",
+      "date": "2026-01-21",
+      "status": "scheduled"
+    }
+  ],
+  "investigations": [
+    {
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "visit_note_2026-01-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Initial oncology consultation for palpable right breast mass",
+        "bounding_box": null
+      },
+      "confidence": 0.94,
+      "investigation_name": "Diagnostic Mammogram and Breast Ultrasound",
+      "status": "completed",
+      "ordered_date": "2026-01-05",
+      "result_date": "2026-01-07"
+    },
+    {
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Post-operative surgical oncology follow-up consultation",
+        "bounding_box": null
+      },
+      "confidence": 0.93,
+      "investigation_name": "CT Simulation Planning Scan for Adjuvant Radiotherapy",
+      "status": "ordered",
+      "ordered_date": "2026-02-07",
+      "result_date": null
+    }
+  ],
+  "timeline_events": [
+    {
+      "source": {
+        "document_id": "doc-001",
+        "file_name": "visit_note_2026-01-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Initial oncology consultation for palpable right breast mass",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "event_id": "EVT-001",
+      "date": "2026-01-05",
+      "event_type": "Visit",
+      "description": "Documented initial surgical oncology outpatient consultation at Sunrise Oncology Centre."
+    },
+    {
+      "source": {
+        "document_id": "doc-002",
+        "file_name": "pathology_report_2026-01-08.pdf",
+        "page_number": 1,
+        "text_anchor": "Pathology report documents: Invasive ductal carcinoma, histological Nottingham grade 2. ER positive (85%), PR positive (70%), HER2 negative (1+ by IHC). Ki-67 proliferation index: 15%.",
+        "bounding_box": null
+      },
+      "confidence": 0.99,
+      "event_id": "EVT-002",
+      "date": "2026-01-08",
+      "event_type": "Pathology",
+      "description": "Pathology report documents invasive ductal carcinoma, grade 2, ER+/PR+/HER2- from core needle biopsy."
+    },
+    {
+      "source": {
+        "document_id": "doc-003",
+        "file_name": "laboratory_report_2026-01-10.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: CA 15-3 value 22.4 U/mL",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "event_id": "EVT-003",
+      "date": "2026-01-10",
+      "event_type": "Laboratory",
+      "description": "Laboratory report records CA 15-3 at 22.4 U/mL and Hemoglobin at 13.4 g/dL."
+    },
+    {
+      "source": {
+        "document_id": "doc-004",
+        "file_name": "imaging_report_2026-01-14.pdf",
+        "page_number": 1,
+        "text_anchor": "Imaging report states: 2.2 cm discrete non-calcified mass in upper-outer quadrant of right breast. No focal lesions in lung parenchyma, liver, or osseous structures.",
+        "bounding_box": null
+      },
+      "confidence": 0.96,
+      "event_id": "EVT-004",
+      "date": "2026-01-14",
+      "event_type": "Imaging",
+      "description": "CT chest/abdomen/pelvis documents 2.2 cm right breast mass with no distant lesions reported."
+    },
+    {
+      "source": {
+        "document_id": "doc-005",
+        "file_name": "prescription_2026-01-15.pdf",
+        "page_number": 1,
+        "text_anchor": "Prescription lists: Tamoxifen 20 mg tablet oral daily",
+        "bounding_box": null
+      },
+      "confidence": 0.95,
+      "event_id": "EVT-005",
+      "date": "2026-01-15",
+      "event_type": "Medication",
+      "description": "Prescription records Tamoxifen 20 mg daily oral started."
+    },
+    {
+      "source": {
+        "document_id": "doc-006",
+        "file_name": "procedure_note_2026-01-20.pdf",
+        "page_number": 1,
+        "text_anchor": "Procedure note documents: Right breast partial mastectomy and sentinel lymph node biopsy completed.",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "event_id": "EVT-006",
+      "date": "2026-01-20",
+      "event_type": "Procedure",
+      "description": "Procedure note documents right partial mastectomy and sentinel lymph node biopsy completed."
+    },
+    {
+      "source": {
+        "document_id": "doc-007",
+        "file_name": "referral_letter_2026-01-21.pdf",
+        "page_number": 1,
+        "text_anchor": "Referral letter documents request for adjuvant radiation oncology consultation.",
+        "bounding_box": null
+      },
+      "confidence": 0.96,
+      "event_id": "EVT-007",
+      "date": "2026-01-21",
+      "event_type": "Referral",
+      "description": "Referral letter documents request for adjuvant radiation oncology consultation."
+    },
+    {
+      "source": {
+        "document_id": "doc-008",
+        "file_name": "laboratory_report_2026-02-05.pdf",
+        "page_number": 1,
+        "text_anchor": "Laboratory report records: Hemoglobin value 12.8 g/dL",
+        "bounding_box": null
+      },
+      "confidence": 0.98,
+      "event_id": "EVT-008",
+      "date": "2026-02-05",
+      "event_type": "Laboratory",
+      "description": "Post-operative laboratory report records Hemoglobin at 12.8 g/dL."
+    },
+    {
+      "source": {
+        "document_id": "doc-009",
+        "file_name": "followup_visit_2026-02-07.pdf",
+        "page_number": 1,
+        "text_anchor": "Post-operative surgical oncology follow-up consultation",
+        "bounding_box": null
+      },
+      "confidence": 0.97,
+      "event_id": "EVT-009",
+      "date": "2026-02-07",
+      "event_type": "Visit",
+      "description": "Post-operative surgical oncology review and order for radiation therapy planning scan."
+    },
+    {
+      "source": {
+        "document_id": "doc-010",
+        "file_name": "discharge_summary_2026-02-10.pdf",
+        "page_number": 2,
+        "text_anchor": "Discharge summary records surgical episode completion and scheduled radiation oncology planning",
+        "bounding_box": null
+      },
+      "confidence": 0.96,
+      "event_id": "EVT-010",
+      "date": "2026-02-10",
+      "event_type": "Discharge",
+      "description": "Discharge summary documents surgical post-operative discharge with outpatient oncology follow-up."
+    }
+  ]
+}
